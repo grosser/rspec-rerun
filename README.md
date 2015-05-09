@@ -11,12 +11,12 @@ Usage
 -----
 
 Add `rspec-rerun` to `Gemfile` in the `:development` and `:test` groups.
-If you're using RSpec 3, also add `rspec-legacy_formatters`.
+
+(For Rspec 2 use version '~> 0.3.1'. )
 
 ``` ruby
 group :development, :test do
   gem 'rspec-rerun'
-  gem 'rspec-legacy_formatters'
 end
 ```
 
